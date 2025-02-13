@@ -23,11 +23,6 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o número do seu Saldo !");
         Saldo = pergunta.nextDouble();
 
-        System.out.println("O nome do cliente é: " + NomeCliente);
-        System.out.println("O número da conta é: " + Numero);
-        System.out.println("O número da Agência é: " + Agencia);
-        System.out.println("O Saldo é: " + Saldo);
-
         System.out.println("Olá " + NomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + Agencia+ ", conta " + Numero + " e seu saldo " + Saldo + " já está disponível para saque.");
 
         pergunta.close();
